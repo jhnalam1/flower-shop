@@ -64,8 +64,9 @@ body {
 
 .offer-part h2 {
     color: #272727;
-    font-size: 30px;
+    font-size: 37px;
     font-weight: 800;
+    margin-bottom: 15px;
 }
 
 .offer-part h2 span {
@@ -78,7 +79,8 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    width: 594px;
+    margin-bottom: 15px;
+    width: 500px;
 }
 
 .offer-img img {
@@ -110,7 +112,8 @@ body {
 }
 
 .galary {
-    padding: 100px 0;
+    /* padding: 100px 0; */
+    margin-left: 120px;
 }
 
 .galary-images {
