@@ -5,6 +5,7 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
 .button-primary {
     color: #FFF;
     font-size: 20px;
@@ -14,6 +15,7 @@ body {
     border: none;
     border-radius: 8px;
 }
+
 /* banner part */
 .banner {
     display: flex;
@@ -21,7 +23,6 @@ body {
 
 }
 
-.banner-heading {}
 
 .banner-part {
     margin: 120px 20px 60px 120px;
@@ -45,7 +46,7 @@ body {
 
 
 
-.banner-img img{
+.banner-img img {
     width: 440px;
     height: 600px;
     margin-top: 30px;
@@ -54,22 +55,23 @@ body {
 }
 
 /* offer part */
-.offer{
+.offer {
     display: flex;
     align-items: center;
     text-align: center;
+    background: #e554730d;
 }
-.offer-part{
-    
-}
+
 .offer-part h2 {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
 }
-.offer-part h2 span{
+
+.offer-part h2 span {
     color: #E55473;
 }
+
 .offer-part p {
     color: #27272799;
     font-family: Lato;
@@ -78,7 +80,45 @@ body {
     line-height: 30px;
     width: 594px;
 }
-.offer-img  img{
+
+.offer-img img {
     margin: 100px 0;
     vertical-align: middle;
+}
+
+/* galary Part */
+.galary-content {
+    text-align: center;
+}
+
+.galary-content h3 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.galary-content p {
+    width: 594px;
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.galary {
+    padding: 100px 0;
+}
+
+.galary-images {
+    text-align: center;
+}
+
+.galary-images img {
+    width: 250px;
+    height: 340px;
+    margin: 10px;
 }
